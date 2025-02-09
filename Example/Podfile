@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RNSDK_Example' do
+  pod 'RNSDK', :path => '../'
+
+  target 'RNSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
